@@ -1,7 +1,6 @@
-def ubahHuruf(myStr):
-    ubah = myStr.replace("Terstruktur", "Python")
-    print(ubah)
-    return ubah
+def UbahHuruf (text, a, b):
+    ubah= text.replace(a,b)
+    print (ubah)
+    return
 
-myStr = "Pemrograman Terstruktur"
-ubahHuruf(myStr)
+UbahHuruf('Matematika','T','S')
